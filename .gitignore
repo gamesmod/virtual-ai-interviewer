@@ -1,0 +1,23 @@
+# Секреты и локальная конфигурация
+.env
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+*.egg-info/
+
+# Godot 4
+client/.godot/
+client/export/
+
+# Системное
+.DS_Store
+Thumbs.db
+
+# Сборка и артефакты
+dist/
+build/
+*.log
